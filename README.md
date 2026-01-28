@@ -32,7 +32,7 @@ The data model follows a star schema with two fact tables and shared dimensions.
 
 ![Data Model](data_model.png)
 
-## Dimension Tables
+### Dimension Tables
 
 -  dim_customer
     - region
@@ -49,7 +49,7 @@ The data model follows a star schema with two fact tables and shared dimensions.
     - cear, month, day
     - YTD and rolling windows
 
-## Fact Tables
+### Fact Tables
 
 - fact_sales_orders: revenue, quantity, currency, order date
   
